@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C4A9F3682E3890400016063D /* Algos in Frameworks */ = {isa = PBXBuildFile; productRef = C4A9F3672E3890400016063D /* Algos */; };
+		C4E976022E4A6E8E00A6F4E8 /* Algos in Frameworks */ = {isa = PBXBuildFile; productRef = C4E976012E4A6E8E00A6F4E8 /* Algos */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4A9F3682E3890400016063D /* Algos in Frameworks */,
+				C4E976022E4A6E8E00A6F4E8 /* Algos in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +120,7 @@
 			name = AlgosATesting;
 			packageProductDependencies = (
 				C4A9F3672E3890400016063D /* Algos */,
+				C4E976012E4A6E8E00A6F4E8 /* Algos */,
 			);
 			productName = AlgosATesting;
 			productReference = C4A9F33B2E388FB00016063D /* AlgosATesting.app */;
@@ -202,7 +205,7 @@
 			mainGroup = C4A9F3322E388FB00016063D;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				C4A9F3662E3890400016063D /* XCLocalSwiftPackageReference "../../Algos" */,
+				C4E976002E4A6E8E00A6F4E8 /* XCLocalSwiftPackageReference "../../Algos-swift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C4A9F33C2E388FB00016063D /* Products */;
@@ -561,14 +564,18 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		C4A9F3662E3890400016063D /* XCLocalSwiftPackageReference "../../Algos" */ = {
+		C4E976002E4A6E8E00A6F4E8 /* XCLocalSwiftPackageReference "../../Algos-swift" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../Algos;
+			relativePath = "../../Algos-swift";
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		C4A9F3672E3890400016063D /* Algos */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Algos;
+		};
+		C4E976012E4A6E8E00A6F4E8 /* Algos */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Algos;
 		};
